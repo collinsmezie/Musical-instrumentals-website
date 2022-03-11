@@ -1,0 +1,726 @@
+* {
+  font-family: 'Cocogoose', sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.picture {
+  width: 100px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ec5242;
+}
+
+.red {
+  color: #ec5242;
+}
+
+.gray {
+  color: #d3d3d3;
+}
+
+.black {
+  color: #272a31;
+}
+
+.blackbg {
+  background-color: #272a31;
+}
+
+.whitebg {
+  background-color: white;
+}
+
+.b {
+  border: 2px solid red;
+}
+
+/* body {
+    background: url("media/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+  */
+body {
+  background: url("media/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .window {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background: url("media/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    z-index: 10;
+  }
+
+  .menu {
+    font-weight: 600;
+    font-size: 36px;
+    margin: 95px 0 0 40px;
+  }
+
+  .item {
+    margin-top: 22px;
+    color: #272a31;
+  }
+
+  #desktop-menu {
+    display: none;
+  }
+
+  .heading {
+    margin: auto;
+    width: 93%;
+  }
+
+  #mobileMenu {
+    margin: 20px 0 50px 15px;
+  }
+
+  .company {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .time {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+  }
+
+  .venue {
+    margin-bottom: 80px;
+  }
+
+  #cancel-icon {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    border-style: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: -15px;
+    font-size: 40px;
+    color: #272a31;
+  }
+
+  #desktop-nav {
+    display: none;
+  }
+
+  .latest-songs {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: fit-content;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+
+  .latest-songs h2 {
+    color: white;
+  }
+
+  .line-border {
+    border: 1px solid #ec5242;
+    width: 26%;
+    margin: 20px 0 30px 0;
+  }
+
+  .song {
+    display: flex;
+    gap: 10px;
+    background: rgba(211, 211, 211, 0.1);
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .songs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    background: url("media/repeat.jpg");
+  }
+
+  .song p {
+    color: #e6eef7;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .song h3 {
+    color: #ec5242;
+  }
+
+  .see-more {
+    display: none;
+  }
+
+  #selectsong {
+    margin: 40px 0 40px 55px;
+    background-color: #ec5242;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px;
+    width: 70%;
+    border-style: none;
+  }
+
+  #header-about-section {
+    display: none;
+  }
+
+  #header-about-section p {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .visit-link {
+    line-height: 22px;
+    padding-bottom: 30px;
+  }
+
+  #header-about-section h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #about-main-content {
+    border: 2px solid #d3d3d3;
+    background-color: white;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  #body-about-section {
+    display: none;
+  }
+
+  #body-about-section .about-body {
+    border-bottom: 2px solid #d3d3d3;
+    background-color: white;
+    margin: 30px 0 30px 0;
+    padding: 15px;
+  }
+
+  #homepage-section-footer {
+    padding: 10px;
+  }
+
+  #footer-area {
+    background-color: #4c4e52;
+  }
+
+  #about-section-footer {
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    column-gap: 55px;
+  }
+
+  .summit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px 0 10px 0;
+  }
+
+  .summit hr {
+    border: 1px solid #ec5242;
+    width: 11%;
+    margin: 10px 0 10px 0;
+  }
+
+  .summit-text {
+    text-align: center;
+    color: #d3d3d3;
+    font-weight: bold;
+  }
+
+  .about-body-text {
+    margin: auto;
+    text-align: center;
+  }
+
+  #about-last-section p {
+    color: #272a31;
+  }
+
+  #about-section-logo {
+    border: 2px solid #d3d3d3;
+    width: 60%;
+    margin: 35px 0 20px 60px;
+  }
+
+  .past-summit {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .logo-box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .logo-box1 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+
+  .footer-logo {
+    width: 30%;
+  }
+
+  .starphotos {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding: 20px;
+    margin-top: 15px;
+  }
+
+  #header-homepage-section .introduction {
+    border: 2px solid white;
+    background-color: rgb(242, 242, 242);
+    text-align: left;
+    width: 89%;
+    margin: auto;
+    line-height: 1.5;
+    padding: 15px;
+    margin-top: 25px;
+  }
+
+  #body-homepage-section {
+    background: url("media/repeat.jpg");
+    padding-top: 50px;
+  }
+
+  .box {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    grid-column-start: 1;
+    grid-column-end: 4;
+  }
+
+  .featured {
+    display: grid;
+    align-content: center;
+    background-color: white;
+    padding-top: 45px;
+  }
+
+  .featuredLineBox {
+    display: grid;
+    align-items: center;
+    margin: auto;
+  }
+
+  .hr {
+    width: 24%;
+    border: 1px solid red;
+    margin: 10px 0 13px 68px;
+  }
+
+  .artists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 1em;
+    margin: 60px 24px 0 24px;
+  }
+
+  .picture {
+    width: 150px;
+    height: 150px;
+  }
+
+  .line {
+    width: 10%;
+    border: 1px solid grey;
+    margin: 10px 0 13px 0;
+  }
+
+  .artistName {
+    margin-bottom: 5px;
+  }
+
+  .doings {
+    color: red;
+    font-style: italic;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  #footer {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  #mobileMenu {
+    display: none;
+  }
+
+  #desktop-menu {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 20px;
+  }
+
+  #desktop-menu img {
+    height: 90%;
+    width: 20px;
+  }
+
+  #desktop-nav img {
+    height: 100%;
+    width: 50px;
+  }
+
+  #desktop-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .nav-contents {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    width: 50%;
+    justify-content: flex-end;
+  }
+
+  .campaign {
+    border: 3px solid  #ec5242;
+    padding: 10px;
+  }
+
+  .heading {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 75%;
+    margin: 100px 0 50px 100px;
+  }
+
+  #main-heading {
+    font-size: 40px;
+  }
+
+  .company {
+    font-size: 20px;
+  }
+
+  .introduction {
+    border: 2px solid white;
+    background-color: rgb(242, 242, 242);
+    text-align: left;
+    width: 60%;
+    line-height: 1.5;
+    padding: 15px;
+  }
+
+  .time {
+    font-size: 35px;
+    font-weight: bolder;
+  }
+
+  #body-homepage-section {
+    background: url("media/repeat.jpg");
+    padding-top: 50px;
+  }
+
+  .latest-songs {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: fit-content;
+    align-items: center;
+    padding-bottom: 25px;
+  }
+
+  .line-border {
+    border: 1px solid #ec5242;
+    width: 26%;
+    margin: 15px 0 30px 0;
+  }
+
+  .songs-list {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 70%;
+    margin: auto;
+  }
+
+  .song {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: rgba(211, 211, 211, 0.1);
+    width: 20%;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+    padding: 10px;
+  }
+
+  .song p {
+    color: #e6eef7;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .see-more {
+    width: fit-content;
+    margin: auto;
+    color: #e6eef7;
+    margin-top: 65px;
+    padding-bottom: 77px;
+  }
+
+  .artists {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3em;
+    column-gap: 25px;
+    margin: auto;
+    background-color: white;
+    padding: 50px 20px 20px 20px;
+  }
+
+  .box {
+    display: flex;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .featured {
+    display: grid;
+    align-content: center;
+    background-color: white;
+    padding: 50px;
+  }
+
+  .featuredLineBox {
+    display: grid;
+    align-items: center;
+    margin: auto;
+  }
+
+  .hr {
+    width: 24%;
+    border: 1px solid red;
+    margin: 10px 0 13px 68px;
+  }
+
+  .picture {
+    width: 120px;
+    height: 120px;
+  }
+
+  .line {
+    width: 5%;
+    border: 1px solid grey;
+    margin: 10px 0 13px 0;
+  }
+
+  .artistName {
+    margin-bottom: 5px;
+  }
+
+  .doings {
+    color: red;
+    font-style: italic;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .summit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .summit-text {
+    text-align: center;
+    color: #d3d3d3;
+  }
+
+  .summit hr {
+    border: 1px solid #ec5242;
+    width: 3%;
+    margin: 16px 0 10px 0;
+  }
+
+  .logo-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .logo-box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: auto;
+  }
+
+  .logo-box1 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    width: fit-content;
+    margin: auto;
+  }
+
+  #about-section-footer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 25px;
+    column-gap: 200px;
+  }
+
+  #popup {
+    display: none;
+  }
+
+  #header-about-section {
+    display: none;
+  }
+
+  #header-about-section h1 {
+    text-align: center;
+    margin-top: 75px;
+  }
+
+  #about-main-content {
+    border: 2px solid #d3d3d3;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 60%;
+    padding: 16px;
+    line-height: 1.5;
+    margin-top: 45px;
+    margin-bottom: 45px;
+  }
+
+  .visit-link {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    line-height: 25px;
+    padding-bottom: 20px;
+  }
+
+  .about-body-text {
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+  .about-body {
+    background-color: white;
+    margin-top: 60px;
+    padding: 42px;
+  }
+
+  #about-section-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border: 2px solid #d3d3d3;
+    padding: 25px;
+  }
+
+  #about-last-section {
+    background-color: white;
+    border-top: 2px solid #d3d3d3;
+    padding: 50px;
+  }
+
+  #about-last-section p {
+    color: #272a31;
+  }
+
+  .starphotos {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  #body-about-section {
+    display: none;
+  }
+
+  .footerText {
+    display: flex;
+    align-items: center;
+  }
+
+  #homepage-section-footer {
+    background-color: #4c4e52;
+    padding: 32px;
+  }
+
+  #selectsong {
+    display: none;
+  }
+}
