@@ -44,7 +44,7 @@ h1 {
   border: 2px solid red;
 }
 
-/* body {
+/* bodi {
     background: url("media/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -203,9 +203,11 @@ body {
     padding-bottom: 30px;
   }
 
-  #header-about-section h1 {
+  #header-about-section h2 {
     text-align: center;
     margin-bottom: 20px;
+    font-size: 31px;
+    font-weight: 700;
   }
 
   #about-main-content {
@@ -218,11 +220,11 @@ body {
     margin-bottom: 20px;
   }
 
-  #body-about-section {
+  #bodi-about-section {
     display: none;
   }
 
-  #body-about-section .about-body {
+  #bodi-about-section .about-bodi {
     border-bottom: 2px solid #d3d3d3;
     background-color: white;
     margin: 30px 0 30px 0;
@@ -266,7 +268,7 @@ body {
     font-weight: bold;
   }
 
-  .about-body-text {
+  .about-bodi-text {
     margin: auto;
     text-align: center;
   }
@@ -329,7 +331,7 @@ body {
     margin-top: 25px;
   }
 
-  #body-homepage-section {
+  #bodi-homepage-section {
     background: url("media/repeat.jpg");
     padding-top: 50px;
   }
@@ -470,7 +472,7 @@ body {
     font-weight: bolder;
   }
 
-  #body-homepage-section {
+  #bodi-homepage-section {
     background: url("media/repeat.jpg");
     padding-top: 50px;
   }
@@ -644,9 +646,11 @@ body {
     display: none;
   }
 
-  #header-about-section h1 {
+  #header-about-section h2 {
     text-align: center;
     margin-top: 75px;
+    font-size: 30px;
+    font-weight: 700;
   }
 
   #about-main-content {
@@ -669,14 +673,14 @@ body {
     padding-bottom: 20px;
   }
 
-  .about-body-text {
+  .about-bodi-text {
     width: 55%;
     margin: auto;
     text-align: center;
     padding-bottom: 50px;
   }
 
-  .about-body {
+  .about-bodi {
     background-color: white;
     margin-top: 60px;
     padding: 42px;
@@ -710,7 +714,7 @@ body {
     margin-top: 30px;
   }
 
-  #body-about-section {
+  #bodi-about-section {
     display: none;
   }
 

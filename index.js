@@ -1,7 +1,7 @@
 const removeHeaderHomepage =document.getElementById("header-homepage-section");
-const removeBodyHomepage =document.getElementById("body-homepage-section");
+const removeBodyHomepage =document.getElementById("bodi-homepage-section");
 const addHeaderAboutpage =document.getElementById("header-about-section");
-const addBodyAboutpage =document.getElementById("body-about-section");
+const addBodyAboutpage =document.getElementById("bodi-about-section");
 
 const removeFooter = document.getElementById("homepage-section-footer")
 const popupMenu = document.getElementById("mobileMenu")
@@ -143,7 +143,7 @@ return `<div class="box">
     
 }
 
-const BodyHomepage =document.getElementById("body-homepage-section");
+const BodyHomepage =document.getElementById("bodi-homepage-section");
 const featured = document.createElement("div");
 featured.setAttribute("class", "featured");
 
