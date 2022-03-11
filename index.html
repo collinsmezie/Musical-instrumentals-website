@@ -12,35 +12,35 @@
 <header>
     
     <div id="popup" class="pop">
-        <button id="cancel-icon" type="button" onclick="exit()">&times;</button>
+        <button id="cancel-icon" type="button">&times;</button>
         <ul class="menu">
-          <li class="item" onclick="restoreMobileHome()">Home</li>  
-          <li class="item" onclick="removeMobileHome()">About</li>
+          <li class="item" id="restoreMobileHome">Home</li>  
+          <li class="item" id="removeMobileHome">About</li>
           <li class="item">Program</li>     
           <li class="item">Join</li>
           <li class="item">Sponsor</li>
-          <li class="item">News</a></li>
+          <li class="item">News</li>
         </ul>
     </div>
     <span id="mobileMenu" class="fas fa-bars fa-3x"></span>
     <div id="desktop-menu" class="blackbg" >
         <span><img src="media/icons8-facebook.svg" alt="facebook" width="60" height="100"></span>
         <span><img src="media/icons8-twitter.svg" alt="twitter" width="100" height="100"></span>
-        <span><p  class="gray">English</p></span>
-        <span><p class="gray">My Page</p></span>
-        <span><p class="gray">Logout</p></span>
+        <p  class="gray">English</p>
+        <p class="gray">My Page</p>
+        <p class="gray">Logout</p>
     </div>
     <nav id="desktop-nav" class="whitebg">
        <div class="nav-logo">
-        <img src="media/headphone.png" alt="logo" onclick="restoreHome()">
+        <img src="media/headphone.png" alt="logo" id="restoreHome">
        </div>
        <div class="nav-contents">
-        <span><p class="red" onclick="removeHome()">About</p></span>
-        <span><p class="black">Program</p></span>
-        <span><p class="black">Join</p></span>
-        <span><p class="black">Sponsor</p></span>
-        <span><p class="black">News</p></span>
-        <span><button class="campaign red whitebg">Campaign</button></span>
+        <span><p class="red cursor" id="removeHome">About</p></span>
+        <span><p class="black cursor">Program</p></span>
+        <span><p class="black cursor">Join</p></span>
+        <span><p class="black cursor">Sponsor</p></span>
+        <span><p class="black cursor">News</p></span>
+        <span><button class="campaign red whitebg cursor" type="button">Campaign</button></span>
         </div>
     </nav>
     <div id="header-homepage-section" class="heading">
@@ -100,7 +100,7 @@
                 <div><h3 class="red">Play</h3></div>
                 <div><p>Listen to the speakers from various countries about the messages of sharing and opening</p></div>
             </div>
-            <button id="selectsong">Jump on the Beat</button>
+            <button id="selectsong" type="button">Jump on the Beat</button>
         </div>
         <div class="see-more"><p>SEE ALL EVENT</p></div>
     </div>

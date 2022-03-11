@@ -6,6 +6,10 @@
   text-decoration: none;
 }
 
+.cursor {
+    cursor: pointer;
+}
+
 .picture {
   width: 100px;
 }

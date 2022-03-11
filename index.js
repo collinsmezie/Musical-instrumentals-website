@@ -8,14 +8,16 @@ const popupMenu = document.getElementById("mobileMenu")
 const menuItem = document.querySelector(".pop");
 const footer = document.getElementById("footer");
 const aboutFooterColor = document.getElementById("about-section-footer");
-const footerTextColors = document.querySelectorAll(".change-color");
-
+const removeHome = document.getElementById("removeHome");
+const addHome = document.getElementById("restoreHome");
+const removeMobileHome = document.getElementById("removeMobileHome");
+const addMobileHome = document.getElementById("restoreMobileHome");
+const cancel = document.getElementById("cancel-icon");
 
 menuItem.style.display = "none";
 
 
-function removeHome() {
-    console.log("working")
+removeHome.addEventListener("click", () => {
     removeHeaderHomepage.style.display = "none";
     removeBodyHomepage.style.display = "none";
     removeFooter.style.display = "none";
@@ -29,10 +31,9 @@ function removeHome() {
     document.getElementById("color4").style.color = "white";
 
 
-}
+})
 
-function restoreHome() {
-    console.log("working")
+addHome.addEventListener("click", () => {
     removeHeaderHomepage.style.display = "block";
     removeBodyHomepage.style.display = "block";
     removeFooter.style.display = "block";
@@ -46,18 +47,16 @@ function restoreHome() {
     document.getElementById("color4").style.color = "#272A31";
 
 
-}
+})
 
 popupMenu.addEventListener("click", () =>  {
     menuItem.classList.add("window");
     menuItem.style.display = "block";
-    console.log("working");
 
 
 });    
 
-function removeMobileHome() {
-    console.log("working")
+removeMobileHome.addEventListener("click", () => {
     removeHeaderHomepage.style.display = "none";
     removeBodyHomepage.style.display = "none";
     addHeaderAboutpage.style.display = "block";
@@ -66,10 +65,9 @@ function removeMobileHome() {
     footer.style.display = "block";
 
 
-}
+})
 
-function restoreMobileHome() {
-    console.log("working")
+addMobileHome.addEventListener("click", () => {
     removeHeaderHomepage.style.display = "block";
     removeBodyHomepage.style.display = "block";
     removeFooter.style.display = "block";
@@ -78,11 +76,11 @@ function restoreMobileHome() {
     footer.style.display = "none";
     menuItem.style.display = "none";
 
-}
+})
 
-function exit() {
+cancel.addEventListener("click", () => {
     menuItem.style.display = "none";
-}
+})
 
 
 const data = [
@@ -164,7 +162,7 @@ featured.appendChild(featuredLineBox);
 const artistSection = document.createElement("div");
 artistSection.className = "artists";
 
-for (let i = 0; i < data.length; i++) {
+for (let i = 0; i < data.length; i+=1) {
     artistSection.innerHTML += artist(data[i]);
   }
 console.log(artist(data))
