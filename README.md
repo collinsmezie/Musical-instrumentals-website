@@ -5,7 +5,6 @@ Desktop and Mobile version of Project Musical-instrumentals-website:
 complete with project Home Page and About Page.
 
 
-
 ## Built With
 
 - HTML
@@ -25,8 +24,11 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 - VsCode
 
-### Site published at 
-- Coming soon...
+### Site published at
+[Live link](https://collinsmezie.github.io/Musical-instrumentals-website/)
+
+### Video recording Live Demo Link at
+[Live video](https://www.loom.com/share/e188ff3d9e7a4a528ffa6a0aba447491)
 
 ## Authors
 👤 **collins chime **
@@ -34,3 +36,7 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@collinsmezie](https://github.com/collinsmezie)
 - Twitter: [@collinsmezie1] collins mezie
 - LinkedIn: [collins mezie]
+
+## Acknowledgements 
+
+This project is the capstone project of module 1. This project's topic is personalized and it is about music show. The project's design followed Cindy Shin's [template] https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
